@@ -5,7 +5,7 @@ import router from './Routes/Routes/Routes';
 
 function App() {
   return (
-    <div className="max-w-screen-2xl mx-auto container">
+    <div className="max-w-[1440px] mx-auto container">
       <RouterProvider router={router}>
 
       </RouterProvider>

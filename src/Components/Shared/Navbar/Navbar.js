@@ -5,22 +5,22 @@ import { FaAngleDown } from 'react-icons/fa';
 const Navbar = () => {
 
     const menuItems = <>
-        <li><Link className='text-lg font-bold text-black'>Home</Link></li>
+        <li><Link className='text-xl font-bold text-black'>Home</Link></li>
         <li tabIndex={0}>
             <Link className="justify-between text-lg font-bold text-black">
                 Pages
                 <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
             </Link>
             <ul className="p-2 bg-blue-100">
-                <li><Link className='text-lg font-bold text-black'>Services</Link></li>
-                <li><Link className='text-lg font-bold text-black'>Doctors</Link></li>
+                <li><Link className='text-xl font-bold text-black'>Services</Link></li>
+                <li><Link className='text-xl font-bold text-black'>Doctors</Link></li>
             </ul>
         </li>
-        <li><Link className='text-lg font-bold text-black'>Login</Link></li>
+        <li><Link className='text-xl font-bold text-black'>Login</Link></li>
     </>
     return (
         <div>
-            <div className="navbar bg-blue-100 py-4">
+            <div className="navbar bg-slate-100 py-4">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -31,7 +31,7 @@ const Navbar = () => {
                         </ul>
                     </div>
 
-                    <Link className="btn btn-ghost normal-case text-3xl font-bold text-primary">Eye Care BD</Link>
+                    <Link className="btn btn-ghost normal-case text-3xl font-bold text-info">Eye Care BD</Link>
                     <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                         <div className="w-10 rounded-full">
                             <img src="https://placeimg.com/80/80/people" alt='' />
@@ -44,7 +44,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <Link className="btn hidden sm:flex btn-primary text-xl text-white">Appointment</Link>
+                    <Link className="btn hidden sm:flex btn-info bg-gradient-to-r from-primary to info text-xl text-white">Appointment</Link>
                 </div>
             </div>
         </div>
