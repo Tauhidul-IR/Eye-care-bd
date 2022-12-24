@@ -6,7 +6,7 @@ const Banner = () => {
     </React.Fragment>
     return (
         <div>
-            <div className="hero min-h-screen bg-opacity-20" style={{ backgroundImage: `url("https://www.sezza.com/wp-content/uploads/2013/05/unnamed-2.jpg")` }}>
+            <div className="hero  md:min-h-[600px] bg-opacity-20" style={{ backgroundImage: `url("https://www.sezza.com/wp-content/uploads/2013/05/unnamed-2.jpg")` }}>
                 <div className="hero-overlay "></div>
                 <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-lg">
