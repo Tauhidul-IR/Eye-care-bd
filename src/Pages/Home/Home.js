@@ -1,11 +1,11 @@
 import React from 'react';
-import Appointment from './Appointment';
+import HomeAppointment from './HomeAppointment';
 import Banner from './Banner';
 import Consultant from './Consultant';
-import Doctors from './Doctors';
+import HomeDoctors from './HomeDoctors';
 import HomeLocation from './HomeLocation';
 import IntroClinin from './IntroClinin';
-import Services from './Services';
+import HomeServices from './HomeServices';
 import Suggestion from './Suggestion';
 
 const Home = () => {
@@ -13,11 +13,11 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <HomeLocation></HomeLocation>
-            <Services></Services>
+            <HomeServices></HomeServices>
             <Consultant></Consultant>
             <IntroClinin></IntroClinin>
-            <Appointment></Appointment>
-            <Doctors></Doctors>
+            <HomeAppointment></HomeAppointment>
+            <HomeDoctors></HomeDoctors>
             <Suggestion></Suggestion>
         </div>
     );

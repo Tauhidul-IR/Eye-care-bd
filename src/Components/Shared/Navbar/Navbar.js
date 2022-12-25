@@ -44,7 +44,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <Link className="btn hidden sm:flex btn-info bg-gradient-to-r from-primary to info text-xl text-white">Appointment</Link>
+                    <Link className="btn hidden sm:flex btn-info  text-xl text-white">Appointment</Link>
                 </div>
             </div>
         </div>

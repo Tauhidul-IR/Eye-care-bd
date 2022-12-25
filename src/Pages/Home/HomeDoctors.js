@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 // allDoctors.json
-const Doctors = () => {
+const HomeDoctors = () => {
     return (
         <div className='my-10'>
             <h1 className='text-5xl font-bold text-info text-center'>Our Eye Specialists</h1>
@@ -48,4 +48,4 @@ const Doctors = () => {
     );
 };
 
-export default Doctors;
+export default HomeDoctors;

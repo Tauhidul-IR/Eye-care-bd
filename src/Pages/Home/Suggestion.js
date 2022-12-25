@@ -18,7 +18,7 @@ const Suggestion = () => {
                                 <input type="text" name='name' placeholder="Subject" className="input input-bordered     sm:w-[450px] " />
 
                                 <textarea name='message' className="textarea sm:w-[450px] my-4 h-60" placeholder="Your Message"></textarea>
-
+                                <input className='btn btn-info w-full mb-5' type="submit" value={'Send Message'} />
                             </div>
                         </form>
                     </div>
