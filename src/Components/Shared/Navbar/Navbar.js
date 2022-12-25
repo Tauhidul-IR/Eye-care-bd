@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
 
     const menuItems = <>
-        <li><Link className='text-xl font-bold text-black'>Home</Link></li>
+        <li><Link to={'/'} className='text-xl font-bold text-black'>Home</Link></li>
         <li tabIndex={0}>
             <Link className="justify-between text-lg font-bold text-black">
                 Pages
@@ -13,7 +13,7 @@ const Navbar = () => {
             </Link>
             <ul className="p-2 bg-blue-100">
                 <li><Link className='text-xl font-bold text-black'>Services</Link></li>
-                <li><Link className='text-xl font-bold text-black'>Doctors</Link></li>
+                <li><Link to={'/allDoctors'} className='text-xl font-bold text-black'>Doctors</Link></li>
             </ul>
         </li>
         <li><Link className='text-xl font-bold text-black'>Login</Link></li>
