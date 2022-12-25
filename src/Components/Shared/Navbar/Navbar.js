@@ -16,6 +16,7 @@ const Navbar = () => {
                 <li><Link to={'/allDoctors'} className='text-xl font-bold text-black'>Doctors</Link></li>
             </ul>
         </li>
+        <li><Link to={'/appointment'} className='text-xl font-bold text-black'>Appointment</Link></li>
         <li><Link className='text-xl font-bold text-black'>Login</Link></li>
     </>
     return (
