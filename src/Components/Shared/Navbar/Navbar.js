@@ -1,8 +1,23 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../../../Contexts/AuthProvider';
 
 
 const Navbar = () => {
+    const { user, userSignOut } = useContext(AuthContext);
+
+
+
+    const handleSignOut = () => {
+        userSignOut()
+            .then(result => {
+
+            })
+            .catch(error => console.log(error))
+    }
+
+
+
 
     const menuItems = <>
         <li><Link to={'/'} className='text-xl font-bold text-black'>Home</Link></li>
@@ -17,8 +32,17 @@ const Navbar = () => {
             </ul>
         </li>
         <li><Link to={'/appointment'} className='text-xl font-bold text-black'>Appointment</Link></li>
-        <li><Link to={'/login'} className='text-xl font-bold text-black'>Login</Link></li>
+
+        {
+            user?.uid ? <>
+                <li><Link to={'/dashBoard'} className='text-xl font-bold text-black'>DashBoard</Link></li>
+                <li><Link onClick={handleSignOut} className='text-xl font-bold text-black'>SignOut</Link></li>
+            </> : <li><Link to={'/login'} className='text-xl font-bold text-black'>Login</Link></li>
+        }
     </>
+
+
+
     return (
         <div>
             <div className="navbar bg-slate-100 py-4">

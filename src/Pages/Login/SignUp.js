@@ -1,12 +1,35 @@
-import React from 'react';
+import React, { useContext, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../../Contexts/AuthProvider';
+import toast from 'react-hot-toast';
 
 const SignUp = () => {
-
     const { register, handleSubmit, formState: { errors } } = useForm();
+    const { createUser, updateUserProfile } = useContext(AuthContext);
+    const [signUpError, setSignUpError] = useState(null)
 
-    const handleSignUp = () => { }
+    const handleSignUp = (data) => {
+        setSignUpError('')
+        console.log(data);
+        createUser(data.email, data.password)
+            .then(result => {
+                const user = result.user;
+                console.log(user);
+                toast.success("User Create SuccessFully")
+                const userInfo = {
+                    displayName: data.name
+                }
+                updateUserProfile(userInfo)
+                    .then(() => { })
+                    .catch(error => {
+                        console.log(error)
+                        setSignUpError(error.message)
+                    });
+            })
+            .catch(error => console.log(error));
+
+    }
     const handleGoogleLogin = () => { }
 
 
@@ -56,9 +79,9 @@ const SignUp = () => {
                         <input
                             {...register("password", {
                                 required: "Password is Required",
-                                minLength: { value: 6, message: 'Password must be 6 characters or more.!!!' },
+                                // minLength: { value: 6, message: 'Password must be 6 characters or more.!!!' },
                                 // regular expression
-                                pattern: { value: /(?=.*[A-Z])(?=.*[!@#$&*])(?=.*[0-9])(?=.*[a-z])/, message: "Password Must be Strong" }
+                                // pattern: { value: /(?=.*[A-Z])(?=.*[!@#$&*])(?=.*[0-9])(?=.*[a-z])/, message: "Password Must be Strong" }
                             })}
                             type="password" className="input input-bordered w-full max-w-xs" />
                         {errors.password && <p className='text-red-500'>{errors.password?.message}</p>}
@@ -71,7 +94,7 @@ const SignUp = () => {
                     {/* display Error */}
                     <div>
                         {
-                            // signUpError && <p className='text-red-600'>{signUpError}</p>
+                            signUpError && <p className='text-red-600'>{signUpError}</p>
                         }
                     </div>
                 </form>

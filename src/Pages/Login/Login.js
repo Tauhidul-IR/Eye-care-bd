@@ -1,13 +1,36 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useState } from "react";
 import { useForm } from "react-hook-form";
-import { Link } from 'react-router-dom';
+import { toast } from 'react-hot-toast';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { AuthContext } from '../../Contexts/AuthProvider';
 
 const Login = () => {
-    const { register, handleSubmit } = useForm();
+    const { register, formState: { errors }, handleSubmit } = useForm();
+    const [loginError, setLoginError] = useState('');
+    const { userSignIn } = useContext(AuthContext);
+    const location = useLocation();
+    const navigate = useNavigate();
+
+    const from = location.state?.from?.pathname || '/';
 
 
-    const handleLogin = () => {
+
+
+    const handleLogin = (data) => {
+        console.log(data);
+        setLoginError('');
+        userSignIn(data.email, data.password)
+            .then(result => {
+                const user = result.user;
+                console.log(user);
+                navigate(from, { replace: true })
+
+            })
+            .catch(error => {
+                console.log(error)
+                setLoginError(error.message)
+            });
 
     }
     const handleGoogleLogin = () => {
@@ -30,7 +53,7 @@ const Login = () => {
                             })}
                             type="email" className="input input-bordered w-full max-w-xs" />
 
-                        {/* {errors.email && <p className='text-red-700'>{errors.email?.message}</p>} */}
+                        {errors.email && <p className='text-red-700'>{errors.email?.message}</p>}
                     </div>
                     {/* --------------email---------------------------------- */}
 
@@ -46,7 +69,7 @@ const Login = () => {
                                 minLength: { value: 6, message: 'Password must be 6 characters or more.!!!' }
                             })}
                             type="password" className="input input-bordered w-full max-w-xs" />
-                        {/* {errors.password && <p className='text-red-700'>{errors.password?.message}</p>} */}
+                        {errors.password && <p className='text-red-700'>{errors.password?.message}</p>}
                         {/* forget password */}
                         <label className="label"><span className="label-text mb-5 text-primary"><Link to={'/resetPassword'}>Forget Password</Link></span></label>
                     </div>
@@ -60,7 +83,7 @@ const Login = () => {
                 {/* error display------------------------- */}
                 <div>
                     {
-                        // loginError && <p className='text-red-600'>{loginError}</p>
+                        loginError && <p className='text-red-600'>{loginError}</p>
                     }
                 </div>
                 {/* -------------End Form-------------- */}
