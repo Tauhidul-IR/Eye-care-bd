@@ -17,7 +17,7 @@ const Navbar = () => {
             </ul>
         </li>
         <li><Link to={'/appointment'} className='text-xl font-bold text-black'>Appointment</Link></li>
-        <li><Link className='text-xl font-bold text-black'>Login</Link></li>
+        <li><Link to={'/login'} className='text-xl font-bold text-black'>Login</Link></li>
     </>
     return (
         <div>
