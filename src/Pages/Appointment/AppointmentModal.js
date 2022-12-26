@@ -1,11 +1,11 @@
 import { format } from 'date-fns';
-import React from 'react';
+import React, { useContext } from 'react';
+import { toast } from 'react-hot-toast';
+import { AuthContext } from '../../Contexts/AuthProvider';
 
-const AppointmentModal = ({ selectedDoctor, selectedDate, setSelectedDoctor }) => {
+const AppointmentModal = ({ selectedDoctor, selectedDate, setSelectedDoctor, refetch }) => {
+    const { user } = useContext(AuthContext);
     console.log(selectedDoctor);
-    const user = {
-        displayName: "abc"
-    }
     const date = format(selectedDate, 'PP');
 
 
@@ -30,8 +30,30 @@ const AppointmentModal = ({ selectedDoctor, selectedDate, setSelectedDoctor }) =
             phone
 
         }
-        console.log(appointment);
-        setSelectedDoctor(null);
+
+        fetch('http://localhost:5000/bookingDoctor', {
+            method: "POST",
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(appointment)
+        })
+            .then(res => res.json())
+            .then(data => {
+                console.log(data);
+                if (data.acknowledged) {
+                    setSelectedDoctor(null);
+                    toast.success('Booking Confirmed')
+                    refetch()
+                }
+                else {
+                    toast.error(data.message)
+                }
+            })
+            .catch(error => console.log(error))
+
+
+        // console.log(appointment);
     }
 
 

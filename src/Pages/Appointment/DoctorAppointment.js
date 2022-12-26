@@ -1,17 +1,27 @@
+import { useQuery } from '@tanstack/react-query';
 import { format } from 'date-fns';
 import React, { useEffect, useState } from 'react';
+import Loading from '../../Components/Loading/Loading';
 import AppointmentModal from './AppointmentModal';
 import SingleDocAppointment from './SingleDocAppointment';
 
 const DoctorAppointment = ({ selectedDate }) => {
-    const [appointmentOptions, setAppointmentOption] = useState([])
     const [selectedDoctor, setSelectedDoctor] = useState(null)
+    const date = format(selectedDate, 'PP')
 
-    useEffect(() => {
-        fetch("allDoctors.json")
-            .then(res => res.json())
-            .then(data => setAppointmentOption(data))
-    }, [])
+    const { data: appointmentOptions = [], isLoading, refetch } = useQuery({
+        queryKey: ['appointmentOptions', date],
+        queryFn: async () => {
+            const res = await fetch(`http://localhost:5000/allDoctors?date=${date}`)
+            const data = await res.json();
+            return data;
+        }
+    })
+
+    if (isLoading) {
+        return <Loading></Loading>
+    }
+
     return (
         <div className='mb-10'>
             <h3 className='text-center text-4xl font-bold text-info'>You have selected date : <span className='text-blue-700'>{format(selectedDate, 'PP')}</span></h3>
@@ -23,7 +33,7 @@ const DoctorAppointment = ({ selectedDate }) => {
 
             </div>
             {
-                selectedDoctor && <AppointmentModal selectedDoctor={selectedDoctor} selectedDate={selectedDate} setSelectedDoctor={setSelectedDoctor}></AppointmentModal>
+                selectedDoctor && <AppointmentModal selectedDoctor={selectedDoctor} selectedDate={selectedDate} setSelectedDoctor={setSelectedDoctor} refetch={refetch}></AppointmentModal>
             }
 
         </div>
