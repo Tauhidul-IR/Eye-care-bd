@@ -1,232 +1,42 @@
 [
     {
-        "_id": 1,
         "name": "Cataract",
-        "details": "A cataract is a clouding of the normally clear lens of your eye. For people who have cataracts, seeing through cloudy lenses is a bit like looking through a frosty or fogged-up window. Clouded vision caused by cataracts can make it more difficult to read, drive a car (especially at night) or see the expression on a friend's face.",
-        "slots": [
-            "08.00 AM - 08.30 AM",
-            "08.30 AM - 09.00 AM",
-            "09.00 AM - 9.30 AM",
-            "09.30 AM - 10.00 AM",
-            "10.00 AM - 10.30 AM",
-            "10.30 AM - 11.00 AM",
-            "11.00 AM - 11.30 AM",
-            "11.30 AM - 12.00 AM",
-            "1.00 PM - 1.30 PM",
-            "1.30 PM - 2.00 PM",
-            "2.00 PM - 2.30 PM",
-            "2.30 PM - 3.00 PM",
-            "3.00 PM - 3.30 PM",
-            "3.30 PM - 4.00 PM",
-            "4.00 PM - 4.30 PM",
-            "4.30 PM - 5.00 PM"
-        ]
+        "details": "A cataract is a clouding of the normally clear lens of your eye. For people who have cataracts, seeing through cloudy lenses is a bit like looking through a frosty or fogged-up window. Clouded vision caused by cataracts can make it more difficult to read, drive a car (especially at night) or see the expression on a friend's face."
     },
     {
-        "_id": 2,
         "name": "Cornea",
-        "details": "The cornea is the eye’s outermost layer. It is the clear, dome­ shaped surface that covers the front of the eye. It plays an important role in focusing your vision. Although the cornea may look clear and seem to lack substance, it is a highly organized tissue. Unlike most tissues in the body, the cornea contains no blood vessels to nourish or protect it against infection. Instead, the cornea receives its nourishment from tears and the aqueous humor (a fluid in the front part of the eye that lies behind the cornea). The tissues of the cornea are arranged in three basic layers, with two thinner layers, or membranes, between them. Each of these five layers has an important function. These layers are:",
-        "slots": [
-            "08.00 AM - 08.30 AM",
-            "08.30 AM - 09.00 AM",
-            "09.00 AM - 9.30 AM",
-            "09.30 AM - 10.00 AM",
-            "10.00 AM - 10.30 AM",
-            "10.30 AM - 11.00 AM",
-            "11.00 AM - 11.30 AM",
-            "11.30 AM - 12.00 AM",
-            "1.00 PM - 1.30 PM",
-            "1.30 PM - 2.00 PM",
-            "2.00 PM - 2.30 PM",
-            "2.30 PM - 3.00 PM",
-            "3.00 PM - 3.30 PM",
-            "3.30 PM - 4.00 PM",
-            "4.00 PM - 4.30 PM",
-            "4.30 PM - 5.00 PM"
-        ]
+        "details": "The cornea is the eye’s outermost layer. It is the clear, dome­ shaped surface that covers the front of the eye. It plays an important role in focusing your vision. Although the cornea may look clear and seem to lack substance, it is a highly organized tissue. Unlike most tissues in the body, the cornea contains no blood vessels to nourish or protect it against infection. Instead, the cornea receives its nourishment from tears and the aqueous humor (a fluid in the front part of the eye that lies behind the cornea). The tissues of the cornea are arranged in three basic layers, with two thinner layers, or membranes, between them. Each of these five layers has an important function. These layers are:"
     },
     {
-        "_id": 3,
         "name": "Vitreo Retina",
-        "details": "Eye Care BD is a major referral center which deals with Vitreo-retina service the management of diabetic retinopathy, retinal detachment, ARMD, infections, trauma, retinopathy of prematurity & various other retinal disorders.A well-trained team of retinal surgeons combined with the effective use of latest diagnostic tools (FFA, ICG, Ultrasound B Scan, UBM and OCT get us optimal visual results. This team is constantly updated with new drugs and treatment options.",
-        "slots": [
-            "08.00 AM - 08.30 AM",
-            "08.30 AM - 09.00 AM",
-            "09.00 AM - 9.30 AM",
-            "09.30 AM - 10.00 AM",
-            "10.00 AM - 10.30 AM",
-            "10.30 AM - 11.00 AM",
-            "11.00 AM - 11.30 AM",
-            "11.30 AM - 12.00 AM",
-            "1.00 PM - 1.30 PM",
-            "1.30 PM - 2.00 PM",
-            "2.00 PM - 2.30 PM",
-            "2.30 PM - 3.00 PM",
-            "3.00 PM - 3.30 PM",
-            "3.30 PM - 4.00 PM",
-            "4.00 PM - 4.30 PM",
-            "4.30 PM - 5.00 PM"
-        ]
+        "details": "Eye Care BD is a major referral center which deals with Vitreo-retina service the management of diabetic retinopathy, retinal detachment, ARMD, infections, trauma, retinopathy of prematurity & various other retinal disorders.A well-trained team of retinal surgeons combined with the effective use of latest diagnostic tools (FFA, ICG, Ultrasound B Scan, UBM and OCT get us optimal visual results. This team is constantly updated with new drugs and treatment options."
     },
     {
-        "_id": 4,
         "name": "Glaucoma",
-        "details": "Glaucoma is a group of diseases that damage the eye’s optic nerve and can result in vision loss and blindness. However, with early detection and treatment, you can often protect your eyes against serious vision loss.",
-        "slots": [
-            "08.00 AM - 08.30 AM",
-            "08.30 AM - 09.00 AM",
-            "09.00 AM - 9.30 AM",
-            "09.30 AM - 10.00 AM",
-            "10.00 AM - 10.30 AM",
-            "10.30 AM - 11.00 AM",
-            "11.00 AM - 11.30 AM",
-            "11.30 AM - 12.00 AM",
-            "1.00 PM - 1.30 PM",
-            "1.30 PM - 2.00 PM",
-            "2.00 PM - 2.30 PM",
-            "2.30 PM - 3.00 PM",
-            "3.00 PM - 3.30 PM",
-            "3.30 PM - 4.00 PM",
-            "4.00 PM - 4.30 PM",
-            "4.30 PM - 5.00 PM"
-        ]
+        "details": "Glaucoma is a group of diseases that damage the eye’s optic nerve and can result in vision loss and blindness. However, with early detection and treatment, you can often protect your eyes against serious vision loss."
     },
     {
-        "_id": 5,
         "name": "Uveitis",
-        "details": "The department of Uveitis and ocular immunology is enriched with our qualified uveitis specialists. It deals with the whole battery of ocular inflammations including autoimmune diseases and infections in both adults and children.",
-        "slots": [
-            "08.00 AM - 08.30 AM",
-            "08.30 AM - 09.00 AM",
-            "09.00 AM - 9.30 AM",
-            "09.30 AM - 10.00 AM",
-            "10.00 AM - 10.30 AM",
-            "10.30 AM - 11.00 AM",
-            "11.00 AM - 11.30 AM",
-            "11.30 AM - 12.00 AM",
-            "1.00 PM - 1.30 PM",
-            "1.30 PM - 2.00 PM",
-            "2.00 PM - 2.30 PM",
-            "2.30 PM - 3.00 PM",
-            "3.00 PM - 3.30 PM",
-            "3.30 PM - 4.00 PM",
-            "4.00 PM - 4.30 PM",
-            "4.30 PM - 5.00 PM"
-        ]
+        "details": "The department of Uveitis and ocular immunology is enriched with our qualified uveitis specialists. It deals with the whole battery of ocular inflammations including autoimmune diseases and infections in both adults and children."
     },
     {
-        "_id": 6,
         "name": "Orbit & Oculoplasty",
-        "details": "Oculoplasty is the art and science of plastic surgery around the eye. The eyeball is a delicate structure, protected from harm by eyelids in front and the bony cup (socket) behind. Behind the eyeball run the nerves, arteries and muscles, which carry messages to the brain, move the eyeball, and provide nutrition to the eye. Oculoplasty deals with all these structures surrounding the eyeball.",
-        "slots": [
-            "08.00 AM - 08.30 AM",
-            "08.30 AM - 09.00 AM",
-            "09.00 AM - 9.30 AM",
-            "09.30 AM - 10.00 AM",
-            "10.00 AM - 10.30 AM",
-            "10.30 AM - 11.00 AM",
-            "11.00 AM - 11.30 AM",
-            "11.30 AM - 12.00 AM",
-            "1.00 PM - 1.30 PM",
-            "1.30 PM - 2.00 PM",
-            "2.00 PM - 2.30 PM",
-            "2.30 PM - 3.00 PM",
-            "3.00 PM - 3.30 PM",
-            "3.30 PM - 4.00 PM",
-            "4.00 PM - 4.30 PM",
-            "4.30 PM - 5.00 PM"
-        ]
+        "details": "Oculoplasty is the art and science of plastic surgery around the eye. The eyeball is a delicate structure, protected from harm by eyelids in front and the bony cup (socket) behind. Behind the eyeball run the nerves, arteries and muscles, which carry messages to the brain, move the eyeball, and provide nutrition to the eye. Oculoplasty deals with all these structures surrounding the eyeball."
     },
     {
-        "_id": 7,
         "name": "LASIK",
-        "details": "LASIK (Laser Assisted in Situ Keratomileusis) is a surgical procedure which involves reshaping your cornea with laser to help improve eye sight. By creating a ‘door’ (which we call – Flap) on the surface of your eye, your surgeon can correct vision problems; this ‘door’ is then closed, and your eyes quickly heal on their own. The procedure is quick, safe and virtually painless.",
-        "slots": [
-            "08.00 AM - 08.30 AM",
-            "08.30 AM - 09.00 AM",
-            "09.00 AM - 9.30 AM",
-            "09.30 AM - 10.00 AM",
-            "10.00 AM - 10.30 AM",
-            "10.30 AM - 11.00 AM",
-            "11.00 AM - 11.30 AM",
-            "11.30 AM - 12.00 AM",
-            "1.00 PM - 1.30 PM",
-            "1.30 PM - 2.00 PM",
-            "2.00 PM - 2.30 PM",
-            "2.30 PM - 3.00 PM",
-            "3.00 PM - 3.30 PM",
-            "3.30 PM - 4.00 PM",
-            "4.00 PM - 4.30 PM",
-            "4.30 PM - 5.00 PM"
-        ]
+        "details": "LASIK (Laser Assisted in Situ Keratomileusis) is a surgical procedure which involves reshaping your cornea with laser to help improve eye sight. By creating a ‘door’ (which we call – Flap) on the surface of your eye, your surgeon can correct vision problems; this ‘door’ is then closed, and your eyes quickly heal on their own. The procedure is quick, safe and virtually painless."
     },
     {
-        "_id": 8,
         "name": "Dry Eye",
-        "details": "Dry Eye occurs when the eyes do not produce sufficient tears or the tears evaporate too quickly. Without proper treatment, inadequate tears can make daily activities frustrating, affecting your personal and professional life, from reading to watching TV, to driving or working on the computer.",
-        "slots": [
-            "08.00 AM - 08.30 AM",
-            "08.30 AM - 09.00 AM",
-            "09.00 AM - 9.30 AM",
-            "09.30 AM - 10.00 AM",
-            "10.00 AM - 10.30 AM",
-            "10.30 AM - 11.00 AM",
-            "11.00 AM - 11.30 AM",
-            "11.30 AM - 12.00 AM",
-            "1.00 PM - 1.30 PM",
-            "1.30 PM - 2.00 PM",
-            "2.00 PM - 2.30 PM",
-            "2.30 PM - 3.00 PM",
-            "3.00 PM - 3.30 PM",
-            "3.30 PM - 4.00 PM",
-            "4.00 PM - 4.30 PM",
-            "4.30 PM - 5.00 PM"
-        ]
+        "details": "Dry Eye occurs when the eyes do not produce sufficient tears or the tears evaporate too quickly. Without proper treatment, inadequate tears can make daily activities frustrating, affecting your personal and professional life, from reading to watching TV, to driving or working on the computer."
     },
     {
-        "_id": 9,
         "name": "Neuro Ophthalmology",
-        "details": "Diseases of the Optic Nerve such as optic neuritis, ischemic optic neuropathy, toxic and nutritional optic neuropathies, hereditary optic neuropathies, idiopathic intracranial hypertension, optic nerve and sheath tumours. Disorders of the Visual Pathways arising for example, from stroke or stroke-like disease, tumour compression (e.g. pituitary tumours), inflammation and degenerative diseases. ",
-        "slots": [
-            "08.00 AM - 08.30 AM",
-            "08.30 AM - 09.00 AM",
-            "09.00 AM - 9.30 AM",
-            "09.30 AM - 10.00 AM",
-            "10.00 AM - 10.30 AM",
-            "10.30 AM - 11.00 AM",
-            "11.00 AM - 11.30 AM",
-            "11.30 AM - 12.00 AM",
-            "1.00 PM - 1.30 PM",
-            "1.30 PM - 2.00 PM",
-            "2.00 PM - 2.30 PM",
-            "2.30 PM - 3.00 PM",
-            "3.00 PM - 3.30 PM",
-            "3.30 PM - 4.00 PM",
-            "4.00 PM - 4.30 PM",
-            "4.30 PM - 5.00 PM"
-        ]
+        "details": "Diseases of the Optic Nerve such as optic neuritis, ischemic optic neuropathy, toxic and nutritional optic neuropathies, hereditary optic neuropathies, idiopathic intracranial hypertension, optic nerve and sheath tumours. Disorders of the Visual Pathways arising for example, from stroke or stroke-like disease, tumour compression (e.g. pituitary tumours), inflammation and degenerative diseases. "
     },
     {
-        "_id": 10,
         "name": "Refractive Error",
-        "details": "Light rays enter the eye through the cornea where they are refracted (bent) and pass through the pupil to finally form a sharp focus or image on the innermost sensitive layer of the eye, the retina, just like in the camera. The retina then sends this information to the brain via the optic nerve and the brain perceives the final image. When the image is exactly formed on the retina and there is no power in the eyes, it is called Emmetropia.Refractive errors are eye disorders in which the light is not properly refracted to a point focus on the retina and instead a blurred image is perceived.",
-        "slots": [
-            "08.00 AM - 08.30 AM",
-            "08.30 AM - 09.00 AM",
-            "09.00 AM - 9.30 AM",
-            "09.30 AM - 10.00 AM",
-            "10.00 AM - 10.30 AM",
-            "10.30 AM - 11.00 AM",
-            "11.00 AM - 11.30 AM",
-            "11.30 AM - 12.00 AM",
-            "1.00 PM - 1.30 PM",
-            "1.30 PM - 2.00 PM",
-            "2.00 PM - 2.30 PM",
-            "2.30 PM - 3.00 PM",
-            "3.00 PM - 3.30 PM",
-            "3.30 PM - 4.00 PM",
-            "4.00 PM - 4.30 PM",
-            "4.30 PM - 5.00 PM"
-        ]
+        "details": "Light rays enter the eye through the cornea where they are refracted (bent) and pass through the pupil to finally form a sharp focus or image on the innermost sensitive layer of the eye, the retina, just like in the camera. The retina then sends this information to the brain via the optic nerve and the brain perceives the final image. When the image is exactly formed on the retina and there is no power in the eyes, it is called Emmetropia.Refractive errors are eye disorders in which the light is not properly refracted to a point focus on the retina and instead a blurred image is perceived."
     }
 ]

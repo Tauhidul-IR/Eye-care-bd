@@ -1,6 +1,5 @@
 [
     {
-        "_id": 1,
         "name": "Dr. Md. Ali Akbar",
         "details": "Phaco Surgeon",
         "img": "http://ritimajans.com/demo/muratgedik/img/demos/medical/doctors/doctor-2.jpg",
@@ -18,7 +17,6 @@
         ]
     },
     {
-        "_id": 2,
         "name": "Dr. Mahbubur Rahman",
         "details": "Glaucoma Specialist ",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqiDvbibLjsU4NWXLiadvnQ3bKhwOqWJJqTjVFGtksiQ8y0Afap3zuVKEZ0c4OS-BTR60&usqp=CAU",
@@ -39,7 +37,6 @@
         ]
     },
     {
-        "_id": 3,
         "name": "Dr. Niaz",
         "details": "Vitreo-Retina Surgeon",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtmTKQIAhcm9eJ9wGHVZbZJhB6Miwy0mYqqH_oFH5hoV-Ly6e0fJRPMLs6xOYUTS8OJik&usqp=CAU",
@@ -59,7 +56,6 @@
         ]
     },
     {
-        "_id": 4,
         "name": "Dr. Sarwar",
         "details": "Oculoplasty Specialist",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhxLSoMQ_DGV_MRu2JXMXoHhC3SZNpdZE9bhfdunDVSlGVn1oq8iz6fTPPi_eBiXBT_OA&usqp=CAU",
@@ -78,7 +74,6 @@
         ]
     },
     {
-        "_id": 5,
         "name": "Dr. Kazi Shabbir",
         "details": "Pediatric Ophthalmologist",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9E7xPIq4kvjJ4u_o2ioUxdpArhkhFjkh1zvxjGN4hOho4cMB3AWN3AEPUu_MVFLPV4Z8&usqp=CAU",
@@ -99,7 +94,6 @@
         ]
     },
     {
-        "_id": 6,
         "name": "Dr. Sarwat Rahman",
         "details": "Neuro Ophthalmologist",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcYf5fZX6_RbEE6hKMNs3SZDWDznheKx6jQqS1CpjT9t9o0OcZv--BGPGyOStMYWuJ4XU&usqp=CAU",
@@ -117,7 +111,6 @@
         ]
     },
     {
-        "_id": 7,
         "name": "Dr. Md. Mohasin",
         "details": "Uveitis Specialist",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS-7qX4zTEKXotQDkr0A4VYsR2rN_DFYfd5NbWKCADlczcgW3I2s4GM7X1-nBulPchzLg&usqp=CAU",
@@ -137,7 +130,6 @@
         ]
     },
     {
-        "_id": 8,
         "name": "Dr. Md. Zahedur",
         "details": "Phaco Surgeon",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT18LE_0YeSCRIfQ7tIWutwI7VIUwASqJw_QV4xTMp6MiFntT-JEIFgFDUW8IthypCbjKo&usqp=CAU",
@@ -156,7 +148,6 @@
         ]
     },
     {
-        "_id": 9,
         "name": "Dr. Syeed Mehbub",
         "details": "Glaucoma Surgeon",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAfHdjZNeCfYqec4R1i2YaEBnNjyNcVP8rpgeqHpHPScPRMXMbwDeglv-HpfXkexEuwhE&usqp=CAU",
@@ -175,7 +166,6 @@
         ]
     },
     {
-        "_id": 10,
         "name": "Dr. Ishtiaque Anwar",
         "details": "Strabismus Surgeon",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpLJRJKU6AOdRyNA1pQ6LF-fQWbYk8gCsBdyK_4MWIBpWDM159wXs2QTxNS6DbUvX4uts&usqp=CAU",
@@ -193,7 +183,6 @@
         ]
     },
     {
-        "_id": 11,
         "name": "Dr. Shahedara Begum",
         "details": " LASIK, & Glaucoma Surgeon",
         "img": "http://ritimajans.com/demo/muratgedik/img/demos/medical/doctors/doctor-4.jpg",
@@ -215,7 +204,6 @@
         ]
     },
     {
-        "_id": 12,
         "name": "Dr. A.M.R Rahman",
         "details": "Ophthalmologist",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn--B804vahQFeUFYyYoPJiqjoiCOQRju9Ds0rTeJTRYHUBwrLK2nCjDwmTazQm1qElxM&usqp=CAU",
@@ -235,7 +223,6 @@
         ]
     },
     {
-        "_id": 13,
         "name": "Dr. Farhat Jahan",
         "details": "Phaco & Lasik Surgeon",
         "img": "https://thumbs.dreamstime.com/b/portrait-handsome-doctor-male-pharmacist-34620115.jpg",
@@ -255,7 +242,6 @@
         ]
     },
     {
-        "_id": 14,
         "name": "Dr. Rokhshana Reaz",
         "details": "Neuro Ophthalmology",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAwIQWSaKlDdRQyc5VtJCeoEq0rYAixwAWRw&usqp=CAU",
@@ -273,7 +259,6 @@
         ]
     },
     {
-        "_id": 15,
         "name": "Dr. Munirul Huq",
         "details": "Glaucoma Surgeon",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx95B_t1nLW99XHRicnP0sClK2unDmTya0fA&usqp=CAU",
