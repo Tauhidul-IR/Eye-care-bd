@@ -6,6 +6,7 @@ import DashBoard from '../../Pages/DashBoard/DashBoard/DashBoard';
 import Doctors from '../../Pages/Doctors/Doctors';
 import Home from '../../Pages/Home/Home';
 import Login from '../../Pages/Login/Login';
+import ResetPassWord from '../../Pages/Login/ResetPassWord';
 import SignUp from '../../Pages/Login/SignUp';
 import Services from '../../Pages/Services/Services';
 import PrivateRoute from '../PrivateRoute/PrivateRoute';
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
             {
                 path: '/signUp',
                 element: <SignUp></SignUp>
+            },
+            {
+                path: '/resetPassword',
+                element: <ResetPassWord></ResetPassWord>
             },
             {
                 path: '/allDoctors',
