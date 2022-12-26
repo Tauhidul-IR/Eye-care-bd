@@ -10,11 +10,9 @@ const SingleDoctor = ({ doctors }) => {
                     <img src={img} alt="Shoes" className="rounded-xl  h-52" />
                 </figure>
                 <div className="card-body items-center text-center">
-                    <h2 className="card-title">{name}</h2>
-                    <p>{details}</p>
-                    <div className="card-actions">
-                        <button className="btn btn-info">Make Appointment</button>
-                    </div>
+                    <h2 className="card-title text-3xl text-info">{name}</h2>
+                    <p className='font-bold'>{details}</p>
+
                 </div>
             </div>
         </div>

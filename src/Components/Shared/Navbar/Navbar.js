@@ -34,7 +34,6 @@ const Navbar = ({ setDark, dark }) => {
                 <li><Link to={'/allDoctors'} className='text-xl font-bold text-black'>Doctors</Link></li>
             </ul>
         </li>
-        <li><Link to={'/appointment'} className='text-xl font-bold text-black'>Appointment</Link></li>
 
         {
             user?.uid ? <>
@@ -85,7 +84,7 @@ const Navbar = ({ setDark, dark }) => {
 
                         </label>
                     </div>
-                    <Link className="btn btn-outline hidden sm:flex btn-info  text-xl text-white ml-2">Appointment</Link>
+                    <Link to={'/appointment'} className="btn btn-outline hidden sm:flex btn-info  text-xl text-white ml-2">Appointment</Link>
                 </div>
 
             </div>
