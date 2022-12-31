@@ -8,6 +8,7 @@ import IntroClinin from './IntroClinin';
 import HomeServices from './HomeServices';
 import Suggestion from './Suggestion';
 import HomeAdvirtise from './HomeAdvirtise';
+import HomeDiagnostics from './HomeDiagnostics';
 
 const Home = () => {
     return (
@@ -18,6 +19,7 @@ const Home = () => {
             <Consultant></Consultant>
             <IntroClinin></IntroClinin>
             <HomeAppointment></HomeAppointment>
+            <HomeDiagnostics></HomeDiagnostics>
             <HomeDoctors></HomeDoctors>
             <HomeAdvirtise></HomeAdvirtise>
             <Suggestion></Suggestion>

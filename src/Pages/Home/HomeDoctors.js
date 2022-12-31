@@ -18,11 +18,11 @@ const HomeDoctors = () => {
     return (
         <div className='my-10'>
             <h1 className='text-5xl font-bold text-info text-center'>Our Eye Specialists</h1>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 md:pl-6'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-10 md:pl-6 lg:ml-0'>
 
                 {
                     doctors.map(doctor =>
-                        <div key={doctor._id} className="card w-full md:w-96 bg-base-100 shadow-xl">
+                        <div key={doctor._id} className="card w-full sm:w-72 md:w-72 bg-base-100 shadow-xl">
                             <figure className="px-10 pt-10">
                                 <img src={doctor?.img} alt="Shoes" className="rounded-xl  h-52" />
                             </figure>
