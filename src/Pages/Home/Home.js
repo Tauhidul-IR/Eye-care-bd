@@ -9,6 +9,7 @@ import HomeServices from './HomeServices';
 import Suggestion from './Suggestion';
 import HomeAdvirtise from './HomeAdvirtise';
 import HomeDiagnostics from './HomeDiagnostics';
+import Reviews from './Reviews';
 
 const Home = () => {
     return (
@@ -22,6 +23,7 @@ const Home = () => {
             <HomeDiagnostics></HomeDiagnostics>
             <HomeDoctors></HomeDoctors>
             <HomeAdvirtise></HomeAdvirtise>
+            <Reviews></Reviews>
             <Suggestion></Suggestion>
         </div>
     );

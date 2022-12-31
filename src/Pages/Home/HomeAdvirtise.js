@@ -29,6 +29,7 @@ const HomeAdvirtise = () => {
                 </div>
 
             </div>
+            <div className="divider"></div>
         </div>
     );
 };
